@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class TestSuites {
     public static void main(String[] args) {
 
-
+//Rakesh
         WebDriver driver = new FirefoxDriver();
         driver.get("http://www.argos.co.uk/");
         driver.manage().window().maximize();
