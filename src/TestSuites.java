@@ -20,7 +20,7 @@ public class TestSuites {
         }
 
         String actual = driver.findElement(By.xpath("//div[@class='search']/div/div[2]/div/h1")).getText();
-        Assert.assertEquals("Puma",actual);
+        Assert.assertEquals("adidas",actual);
          driver.close();
     }
 }
